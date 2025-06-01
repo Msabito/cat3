@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8e1; /* світло-жовтий фон */
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #00695c;
+  padding: 0 15px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #004d40;
+}
+
+/* Навігація */
+header {
+  background-color: #00897b; /* зелений */
+  padding: 15px 0;
+}
+
+.nav-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Основний контент та бічна панель */
+main {
+  max-width: 900px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+section {
+  flex: 2 1 60%;
+  background-color: #b2dfdb; /* світло-блакитний */
+  padding: 15px;
+  border-radius: 8px;
+}
+
+aside {
+  flex: 1 1 30%;
+  background-color: #80cbc4; /* середній блакитний */
+  padding: 15px;
+  border-radius: 8px;
+  color: #004d40;
+}
+
+/* Підвал */
+footer {
+  background-color: #004d40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 40px;
+  font-size: 14px;
+  font-weight: normal;
+}
